@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dae733dfc146fafe0cc21263b9f11a4d",
+    "content-hash": "90d7c8d2da76c4a89ad86c5bc641bc14",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1406,6 +1406,57 @@
             "time": "2020-03-27T11:06:43+00:00"
         },
         {
+            "name": "drupal/bootstrap4",
+            "version": "2.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap4.git",
+                "reference": "2.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap4-2.1.4.zip",
+                "reference": "2.1.4",
+                "shasum": "9fc0732bc79e6b2e0a5a7e67d90cb6400e3658ad"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9",
+                "symfony/filesystem": "^3|^4"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.4",
+                    "datestamp": "1605854086",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Roudakov (vladimiraus)",
+                    "homepage": "https://www.drupal.org/u/vladimiraus",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "jannakha",
+                    "homepage": "https://www.drupal.org/user/3085703"
+                }
+            ],
+            "description": "Master theme using Bootstrap 4: powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap4",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap4",
+                "issues": "https://www.drupal.org/project/issues/bootstrap4"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.0.8",
             "source": {
@@ -1786,6 +1837,140 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.0.8"
             },
             "time": "2020-11-17T22:05:11+00:00"
+        },
+        {
+            "name": "drupal/ds",
+            "version": "3.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ds.git",
+                "reference": "8.x-3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.9.zip",
+                "reference": "8.x-3.9",
+                "shasum": "7b419763cd87c2b3f06313489500746705a46334"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/devel": "3.x-dev",
+                "drupal/field_group": "3.x-dev"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.9",
+                    "datestamp": "1598898821",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bram Goffings",
+                    "homepage": "https://www.drupal.org/user/172527",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Kristof De Jaeger",
+                    "homepage": "http://realize.be/",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Brecht Ceyssens",
+                    "homepage": "https://www.drupal.org/user/591438",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Extend the display options for every entity type.",
+            "homepage": "https://www.drupal.org/project/ds",
+            "keywords": [
+                "drupal",
+                "layout",
+                "php"
+            ],
+            "support": {
+                "source": "http://git.drupal.org/project/ds.git",
+                "issues": "https://www.drupal.org/project/issues/ds",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/field_group",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "8a719eaea594f0ba874172831cb28da93c66b77a"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/jquery_ui_accordion": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1591772567",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "nils.destoop",
+                    "homepage": "https://www.drupal.org/user/361625"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group",
+                "issues": "https://www.drupal.org/project/issues/field_group"
+            }
         },
         {
             "name": "drush/drush",
